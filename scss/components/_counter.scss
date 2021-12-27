@@ -1,0 +1,24 @@
+@use '../abstracts/' as *;
+
+.counter{
+    background: url(/images/counter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+            text-align: center;
+        
+        h3{
+            font-size: 3rem;
+            color: $orange;
+        }
+        p{
+            @include title-text(2rem);
+            color: $white;
+        }
+        }
+    }
+}
