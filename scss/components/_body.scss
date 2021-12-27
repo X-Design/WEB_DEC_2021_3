@@ -1,0 +1,31 @@
+@use '../abstracts/' as *;
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track{
+        background: $bg-color;  
+    }
+    &::-webkit-scrollbar-thumb{
+        background: $orange;  
+    }
+}
+
+body{
+    background: $bg-color;
+    height: 300rem; 
+}
+
+section{
+    padding: 3rem 1rem;
+
+}

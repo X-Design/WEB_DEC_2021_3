@@ -1,0 +1,28 @@
+@use '../abstracts/' as *;
+.about{
+    span{
+        font-size: 2rem;
+        color: $orange;
+    }
+    h3{
+        @include title-text(3rem);
+        padding: 1rem 0;  
+    }
+    p{
+        @include graph-text(2rem);
+
+    }
+    ul{
+        list-style: none;
+
+        li{
+            padding-top: 1.5rem;
+            @include title-text(1.7rem);
+
+            i{
+                padding-right: 1rem;
+                color: $orange;
+            }
+        }
+    }
+}

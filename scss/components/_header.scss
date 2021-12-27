@@ -1,0 +1,48 @@
+@use '../abstracts/' as *;
+
+.header{
+    z-index: 1000;
+    padding: 3rem 0;
+
+    &.active{
+        background: $white;
+        padding: 2rem 1rem;
+
+        .logo{
+            color: $black;
+        }
+        
+      .nav a{
+        color:$black;
+     }
+
+     #menu-btn{
+        color:$black;
+     }
+    }
+
+    .logo{
+        font-size:3rem;
+        color: $white;
+        font-weight: bolder;
+
+        span{
+            color: $orange;
+            font-family: $fnt-title4;
+            font-size: 3rem;
+        }
+    }
+
+    .nav a{
+        font-size: 2rem;
+        margin-left: 2rem;
+      /*   color: $white; */
+
+        &:hover{
+            color: $orange;
+        }
+    }
+ #menu-nbtn{
+     display: inline-block;
+ }
+}
