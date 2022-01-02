@@ -300,4 +300,11 @@ section {
   color: white;
 }
 
-/*@use './components/portfolio'; *//*# sourceMappingURL=style.css.map */
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.heading span {
+  font-size: 3rem;
+  color: #ff531f;
+}/*# sourceMappingURL=style.css.map */

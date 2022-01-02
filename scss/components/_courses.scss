@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+
+.heading{
+	text-align: center;
+	margin-bottom: 3rem;
+
+	span{
+		font-size: 3rem;
+		color: $orange;
+	}
+}
