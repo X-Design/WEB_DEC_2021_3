@@ -1,0 +1,33 @@
+@use '../abstracts/' as *;
+
+.pricing{
+	.box-container{
+		@include grid(29rem);
+		margin-top: 8rem;
+		margin-bottom: 5rem;
+
+		.box{
+			padding: 2rem;
+			text-align: center;
+			border: $border;
+			background: $bg-color;
+			 border-radius: .5rem;
+
+			 h3{
+				 @include title-text(2rem);
+				 padding-top: 1rem;
+
+			 }
+			 .price{
+				 padding: 1rem 0;
+				 @include title-text(6rem);
+				 font-weight: bolder;
+
+				 span{
+					 font-size: 2rem;
+					 font-weight: normal;
+				 }
+			 }
+		}
+	}
+}

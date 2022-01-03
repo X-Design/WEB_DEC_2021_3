@@ -323,6 +323,9 @@ section {
 .courses .box-container .box {
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
+.courses .box-container .box:hover .image img {
+  transform: scale(1.3);
+}
 .courses .box-container .box .image {
   height: 25rem;
   overflow: hidden;
@@ -344,7 +347,47 @@ section {
   font-size: 1.7rem;
   text-transform: capitalize;
   color: white;
+  color: white;
 }
 .courses .box-container .box .content .icons span i {
   color: #ff531f;
+  padding-right: 0.5rem;
+}
+.courses .box-container .box .content h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: white;
+  padding: 1rem 0;
+}
+
+.pricing .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.pricing .box-container .box {
+  padding: 2rem;
+  text-align: center;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background: #1c0d14;
+  border-radius: 0.5rem;
+}
+.pricing .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 1rem;
+}
+.pricing .box-container .box .price {
+  padding: 1rem 0;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bolder;
+}
+.pricing .box-container .box .price span {
+  font-size: 2rem;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */
