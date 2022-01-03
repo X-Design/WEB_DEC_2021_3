@@ -307,4 +307,44 @@ section {
 .heading span {
   font-size: 3rem;
   color: #ff531f;
+}
+.heading h3 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: white;
+  color: white;
+}
+
+.courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.courses .box-container .box {
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+.courses .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+.courses .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.courses .box-container .box .content {
+  padding: 2rem;
+}
+.courses .box-container .box .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.courses .box-container .box .content .icons span {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: white;
+}
+.courses .box-container .box .content .icons span i {
+  color: #ff531f;
 }/*# sourceMappingURL=style.css.map */
