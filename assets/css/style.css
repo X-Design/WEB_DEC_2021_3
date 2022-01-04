@@ -39,6 +39,25 @@
   html {
     font-size: 55%;
   }
+
+  .home h3 {
+    font-size: 3rem;
+  }
+
+  .pricing .box-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .pricing .box-container .box:nth-child(2) {
+    transform: scale(1);
+  }
+
+  .join h3 {
+    font-size: 2.5rem;
+  }
+  .join p {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 768px) {
   .header {
@@ -374,6 +393,9 @@ section {
   background: #1c0d14;
   border-radius: 0.5rem;
 }
+.pricing .box-container .box:nth-child(2) {
+  transform: scale(1.1);
+}
 .pricing .box-container .box h3 {
   font-size: 2rem;
   text-transform: capitalize;
@@ -390,4 +412,88 @@ section {
 .pricing .box-container .box .price span {
   font-size: 2rem;
   font-weight: normal;
+}
+.pricing .box-container .box .list {
+  padding-top: 2rem;
+}
+.pricing .box-container .box .list p {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #ababab;
+}
+.pricing .box-container .box .list p i {
+  padding-right: 0.5rem;
+  color: #ff531f;
+}
+.pricing .box-container .box .list p i.fa-times {
+  color: white;
+}
+
+.join span {
+  font-size: 2.5rem;
+  color: #ff531f;
+}
+.join h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 1rem;
+}
+.join p {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #ababab;
+}
+
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.team .box-container .box {
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.team .box-container .box:hover .content {
+  left: -100%;
+}
+.team .box-container .box:hover .share {
+  left: 0;
+}
+.team .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.team .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  padding: 1rem 2rem;
+}
+.team .box-container .box .content span {
+  font-size: 1.7rem;
+  color: #ff531f;
+}
+.team .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #0d0d0d;
+}
+.team .box-container .box .share {
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  background: white;
+  padding: 1.5rem 1rem;
+}
+.team .box-container .box .share a {
+  font-size: 2rem;
+  color: #0d0d0d;
+  margin: 0 1rem;
+}
+.team .box-container .box .share a:hover {
+  color: #ff531f;
 }/*# sourceMappingURL=style.css.map */

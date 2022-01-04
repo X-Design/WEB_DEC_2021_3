@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+.join{
+
+	span{
+		font-size: 2.5rem;
+		color: $orange;
+	}
+	h3{
+		@include title-text(2.7rem);
+		padding-top: 1rem;
+	}
+
+	p{
+		padding: 1rem 0;
+		@include graph-text(1.6rem);
+
+	}
+}

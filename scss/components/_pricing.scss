@@ -11,7 +11,11 @@
 			text-align: center;
 			border: $border;
 			background: $bg-color;
-			 border-radius: .5rem;
+			border-radius: .5rem;
+
+			&:nth-child(2){
+				transform: scale(1.1);
+			}
 
 			 h3{
 				 @include title-text(2rem);
@@ -27,6 +31,21 @@
 					 font-size: 2rem;
 					 font-weight: normal;
 				 }
+			 }
+			 .list{
+				 	padding-top: 2rem;
+				p{		
+					@include graph-text(1.7rem);
+					i{
+						padding-right: .5rem;
+						color: $orange;
+
+						&.fa-times{
+							color:$white;
+						}
+					}
+				}
+
 			 }
 		}
 	}
